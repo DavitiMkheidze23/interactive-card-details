@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 2.2px;
+    color: #fff;
+}
+.front-card-div{
+    display: flex;
+    position: absolute;
+    margin-top: 120.4px;
+    margin-left: 17px;
+}
+.front-card-div1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 19px;
+    margin-top: 17.6px;
+}
+.logo{
+    width: 54px;
+}
+.front-card{
+    width: 285px;
+    border-radius: 6px;
+}
+.back-card{
+    width: 285px;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 73px;
+}
+.card-name{
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+}
+.card-number{
+    margin-top: 37px;
+}
+.card-number-input{
+    width: 310px;
+}
+.card-mm-yy{
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    display: flex;
+    position: absolute;
+    margin-left: 213px;
+    margin-top: 4px;
+}
+.card-name-mm{
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+}
+.cards-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.cvc-span{
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 302px;
+    margin-top: 103px;
+}
+h2{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #21092F;
+    margin-bottom: 9px;
+}
+input{
+    background: #FFFFFF;
+    border: 1px solid #DFDEE0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #21092F;
+    padding: 11px 0px 11px 16px;
+    cursor: pointer;
+    outline: none;
+}
+.information-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 91px;
+    width: 327px;
+    margin-left: 22px;
+}
+.exp-date-h2{
+    display: flex;
+    gap: 23px;
+}
+.mm-input{
+    width: 55px;
+}
+.yy-input{
+    width: 55px;
+    margin-right: 8px;
+}
+.cvc-input{
+    width: 183px;
+    margin-left: 10px;
+}
+button{
+    background: #21092F;
+    border-radius: 8px;
+    border: 0;
+    padding: 15px 130px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 23px;
+    cursor: pointer;
+}
+.thank-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 91px;
+    display: none;
+}
+h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 3.42222px;
+    color: #21092F;
+    margin-top: 35px;
+}
+.added-p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #8F8694;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.continue{
+    margin-top: 0;
+}
+input:focus {
+    border: 1px solid #610595;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.card-mm, .card-yy, .card-slash{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: right;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.red-p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF5050;
+    margin-top: -15px;
+    display: none;
+    margin-bottom: 26px;
+}
+.red-p1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF5050;
+    margin-top: -14px;
+    display: none;
+}
+.red-p2{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF5050;
+    margin-top: -14px;
+    display: none;
+    margin-left: 163px;
+}
+.red-p3{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF5050;
+    margin-top: -15px;
+    display: none;
+    margin-bottom: 10px;
+}
+.red-p4{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF5050;
+    margin-top: -15px;
+    display: none;
+    margin-bottom: 10px;
+}
+button{
+    margin-bottom: 82px;
+}
+.background-img-desktop{
+    display: none;
+}
+@media only screen and (min-width: 1440px){
+    .background-img{
+        display: none;
+    }
+    .background-img-desktop{
+        display: flex;
+    }
+    body{
+        display: flex;
+        align-items: flex-start;
+    }
+    .main-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 350px
+    }
+    .front-card{
+        width: 447px;
+    }
+    span{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 3.42222px;
+        color: #FFFFFF;
+    }
+    .information-div{
+        width: auto;
+    }
+    input{
+        width: 381px;
+    }
+    .card-number-input{
+        width: 381px;
+    }
+    .mm-input, .yy-input{
+        width: 63px;
+        margin-right: 10px;
+    }
+    .logo{
+        width: 84px;
+    }
+    .front-card-div1{
+        margin-top: 28px;
+    }
+    .card-number{
+        margin-top: 64px;
+    }
+    .card-name{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .card-mm, .card-slash, .card-yy
+    {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .card-name-mm{
+        margin-top: 25.5px;
+    }
+    .card-mm-yy{
+        margin-left: 337px;
+    }
+    .front-card-div{
+        display: flex;
+        position: absolute;
+        margin-left: 164px;
+        margin-top: 187px;
+    }
+    .back-card{
+        width: 447px;
+        margin-top: 470px;
+        margin-left: 258px;
+    }
+    .cvc-span{
+        margin-top: 580px;
+        margin-left: 616px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
